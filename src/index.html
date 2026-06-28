@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
-    <title>My Portfolio | Home</title>
+    <script src="https://kit.fontawesome.com/3070f50091.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
+    <title>JLuiscs | Web Portfolio</title>
 </head>
 
 <body>
     <header>
         <div>
-            <h1>Portfolio Website</h1>
-            <p>Here you will find information about me</p>
+            <h1>JLuiscs Developer</h1>
+            <p>Front-End & Informatics Developer</p>
         </div>
         <nav>
             <ul>
@@ -27,29 +30,89 @@
     </header>
     <main>
         <section id="home">
-            <h2>Home</h2>
-            <p></p>
+            <h2>Hi, I'm JLuiscs</h2>
+            <p>Welcome to my personal portfolio! I am a self-taught web developer based in <strong>Mexico City (CDMX)</strong>, dedicated to building functional digital solutions and constantly expanding my programming skills.</p>
+            <p>This website serves as a showcase of my journey in tech. Here you will find my background, my tech stack, and the projects I've developed. My approach to software is driven by these core strengths:</p>
+
+            <ul>
+                <li><strong>Rapid Learner:</strong> Able to pick up new technologies and programming languages quickly.</li>
+                <li><strong>Goal-Oriented:</strong> Focused on setting clear objectives and achieving them in the shortest time possible.</li>
+                <li><strong>Problem Solver:</strong> Proactive in researching and implementing effective solutions to technical challenges.</li>
+                <li><strong>Constant Expansion:</strong> Always seeking to broaden my knowledge base and refine my dev skills.</li>
+            </ul>
         </section>
+
         <section id="aboutme">
             <h2>About Me</h2>
-            <p></p>
+            <p>My journey into programming began about 5 years ago. Rather than following a rigid traditional path, my learning has been deeply practical and organic—learning and building on a project-by-project basis through dedicated periods of self-study.</p>
+            <p>During this path, I spent 3 months studying at a programming school, where I built my foundational logic using <strong>C++</strong> by developing text-based programs like calculators and interactive menus. Later on, driven by personal hobbies, I dove into <strong>Java</strong>, which expanded my understanding of development. I also explored <strong>Python</strong>, reaching a similar level of logic with scripts and menus.</p>
+            <p>Eventually, I discovered <strong>HTML & CSS</strong>. I instantly fell in love with web development and have been consistently learning, practicing, and refining my front-end skills up to this day.</p>
+
+            <h3>Core Programming Foundations</h3>
+            <p>Thanks to exploring both Object-Oriented and scripting languages, I have developed a strong grasp of foundational programming concepts, including:</p>
+            <ul>
+                <li><strong>Control Flow:</strong> Conditionals (if/else statements) and Loops (for, while).</li>
+                <li><strong>Data & Logic:</strong> Variables, Data Types, and Operators.</li>
+                <li><strong>Code Architecture:</strong> Functions, Methods, and Classes (Object-Oriented Programming principles).</li>
+                <li><strong>Version Control:</strong> Foundational Git & GitHub workflow for project management and repository updates.</li>
+            </ul>
         </section>
+
         <section id="projects">
-            <h2>Projects</h2>
-            <p></p>
+            <h2>My Projects</h2>
+            <!-- Cambiamos div por article para mejorar la semántica -->
+            <article class="cards">
+                <h3>Project One</h3>
+                <img src="" alt="">
+                <p>Description of your next upcoming project goes here.</p>
+                <button class="btn-more">More</button>
+            </article>
+
+            <article class="cards">
+                <h3>Project Two</h3>
+                <img src="" alt="">
+                <p>Description of your next upcoming project goes here.</p>
+                <button class="btn-more">More</button>
+            </article>
+
+            <article class="cards">
+                <h3>Project Three</h3>
+                <img src="" alt="">
+                <p>Description of your next upcoming project goes here.</p>
+                <button class="btn-more">More</button>
+            </article>
         </section>
+
         <section id="contactme">
             <h2>Contact Me</h2>
-            <p></p>
+            <!-- Formulario optimizado con placeholders y botón de envío -->
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name...">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email...">
+                
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
+
     <footer>
         <section>
             <h2>JLuiscs Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorem quo maiores dignissimos praesentium magni aspernatur dolor aliquid corrupti, earum velit voluptas obcaecati soluta cum veritatis iusto officiis modi quia.</p>
+            <p>© 2026 - Handcrafted with dedication, clean HTML layout, and semantic structure.</p>
         </section>
         <section>
             <h2>Follow Me</h2>
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
         </section>
     </footer>
 </body>
